@@ -1,8 +1,9 @@
 # oData Client
 
-a C# Console application utilizing public OData API from:
+a simple C# Console application utilizing public OData API from:
 https://www.odata.org/odata-services/ (use v4).
-
+in this project I focused on choosing a library to work with oData. in a real peoject we implement it as a component or module. 
+also, according to your project needs and the architechture you have used, this project needs to be refactored.
 ## Contains:
     Listing people
     Allow searching/filtering people
