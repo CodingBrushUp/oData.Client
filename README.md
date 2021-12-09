@@ -17,3 +17,38 @@ https://www.odata.org/odata-services/ (use v4).
 * [xUnit](https://xunit.net/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+* download .Net 6 runtime from this address: https://dotnet.microsoft.com/download/dotnet/6.0/
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/CodingBrushUp/oData.Client.git
+   ```
+2. copy `Resources` folder to your C:\ (our feed is in this folder)
+
+
+
+go to the project root folder, run `cmd` on url bar to open command prompt
+
+# to build and run project:
+
+run these commands:
+```sh
+dotnet restore
+dotnet build
+dotnet run --project ./oData.Client/2.oData.Client.csproj
+```
+
+# to test project:
+
+```sh
+dotnet test
+```
+<p align="right">(<a href="#top">back to top</a>)</p>
