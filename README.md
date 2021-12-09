@@ -9,6 +9,7 @@ https://www.odata.org/odata-services/ (use v4).
 
 * This project also needs to be refactored based on the needs of your project and the architecture you've adopted. 
 
+# Project needs
     Listing people
     Allow searching/filtering people
     Show details on a specific Person
