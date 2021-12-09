@@ -2,9 +2,13 @@
 
 a simple C# Console application utilizing public OData API from:
 https://www.odata.org/odata-services/ (use v4).
-in this project I focused on choosing a library to work with oData. in a real peoject we implement it as a component or module. 
-also, according to your project needs and the architechture you have used, this project needs to be refactored.
-## Contains:
+
+* In this project, I concentrated on selecting a library to deal with oData.
+
+* In a real project, it would be implemented as a component, module, Extension or a Middleware.
+
+* This project also needs to be refactored based on the needs of your project and the architecture you've adopted. 
+
     Listing people
     Allow searching/filtering people
     Show details on a specific Person
