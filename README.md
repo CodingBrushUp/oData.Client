@@ -9,6 +9,7 @@ https://www.odata.org/odata-services/ (use v4).
     Show details on a specific Person
     Modifying data
     Using xUnitTest to cover Requirements
+    Using Typed and ODataDynamic Expression 
 
 ### Built With
 
