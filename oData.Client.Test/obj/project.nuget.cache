@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Of1pW8vt422CFGeryEKiw39egjpe5DwIorK9w31rmeeIji41rqIVxmrQT029PoNh1PsY+dQpvgh5IARaCt9phg==",
+  "dgSpecHash": "hRZgmNoSkObB7No/FgBp0/teT/cgNdJlY87ONQKLiatyqGjyW+KQiNe8tvjubo3oJlUR+9yfEtg+VmH9DGCKnw==",
   "success": true,
-  "projectFilePath": "E:\\Demo\\oData\\oData.Client.Test\\3. oData.Client.Test.csproj",
+  "projectFilePath": "E:\\Demo\\oData\\oData.Client.Test\\3.oData.Client.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alen_\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\alen_\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

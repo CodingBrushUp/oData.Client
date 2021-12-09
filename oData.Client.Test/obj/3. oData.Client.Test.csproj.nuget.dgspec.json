@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj": {
-                "projectPath": "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj"
+              "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj": {
+                "projectPath": "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj"
               }
             }
           }
@@ -91,12 +91,12 @@
         }
       }
     },
-    "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj": {
+    "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj",
-        "projectName": "1. oData.Core",
-        "projectPath": "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj",
+        "projectUniqueName": "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj",
+        "projectName": "1.oData.Core",
+        "projectPath": "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj",
         "packagesPath": "C:\\Users\\alen_\\.nuget\\packages\\",
         "outputPath": "E:\\Demo\\oData\\oData.Core\\obj\\",
         "projectStyle": "PackageReference",

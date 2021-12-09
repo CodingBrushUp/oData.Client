@@ -9,3 +9,4 @@ E:\Demo\oData\oData.Core\obj\Debug\net6.0\1. oData.Core.csproj.CoreCompileInputs
 E:\Demo\oData\oData.Core\obj\Debug\net6.0\1. oData.Core.dll
 E:\Demo\oData\oData.Core\obj\Debug\net6.0\ref\1. oData.Core.dll
 E:\Demo\oData\oData.Core\obj\Debug\net6.0\1. oData.Core.pdb
+E:\Demo\oData\oData.Core\obj\Debug\net6.0\1. oData.Core.csproj.AssemblyReference.cache

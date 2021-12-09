@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G4fZMBZGiIqYVGcIk0mFy7bw6u6jNMuucIcju39F+mq4YLPwRqujLFMBCk6//RizWRxXABFZTXJnMIhRagM+ww==",
+  "dgSpecHash": "hOa0r+cSKU/Z9kVSSrTUzjmkZMRZccq+iEJuLHad/qxw2a4XMaOlf3iqsUuDG+hhHywjVMUWCsEBqtToFPZ+mg==",
   "success": true,
-  "projectFilePath": "E:\\Demo\\oData\\oData.Client\\2. oData.Client.csproj",
+  "projectFilePath": "E:\\Demo\\oData\\oData.Client\\2.oData.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alen_\\.nuget\\packages\\documentformat.openxml\\2.14.0\\documentformat.openxml.2.14.0.nupkg.sha512",
     "C:\\Users\\alen_\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

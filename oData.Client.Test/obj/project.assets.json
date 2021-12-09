@@ -1905,17 +1905,17 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "1. oData.Core/1.0.0": {
+      "1.oData.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "System.Spatial": "5.8.5"
         },
         "compile": {
-          "bin/placeholder/1. oData.Core.dll": {}
+          "bin/placeholder/1.oData.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/1. oData.Core.dll": {}
+          "bin/placeholder/1.oData.Core.dll": {}
         }
       }
     }
@@ -6612,15 +6612,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "1. oData.Core/1.0.0": {
+    "1.oData.Core/1.0.0": {
       "type": "project",
-      "path": "../oData.Core/1. oData.Core.csproj",
-      "msbuildProject": "../oData.Core/1. oData.Core.csproj"
+      "path": "../oData.Core/1.oData.Core.csproj",
+      "msbuildProject": "../oData.Core/1.oData.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "1. oData.Core >= 1.0.0",
+      "1.oData.Core >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "Simple.OData.Client >= 5.26.0",
       "coverlet.collector >= 3.1.0",
@@ -6635,9 +6635,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Demo\\oData\\oData.Client.Test\\3. oData.Client.Test.csproj",
-      "projectName": "3. oData.Client.Test",
-      "projectPath": "E:\\Demo\\oData\\oData.Client.Test\\3. oData.Client.Test.csproj",
+      "projectUniqueName": "E:\\Demo\\oData\\oData.Client.Test\\3.oData.Client.Test.csproj",
+      "projectName": "3.oData.Client.Test",
+      "projectPath": "E:\\Demo\\oData\\oData.Client.Test\\3.oData.Client.Test.csproj",
       "packagesPath": "C:\\Users\\alen_\\.nuget\\packages\\",
       "outputPath": "E:\\Demo\\oData\\oData.Client.Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -6659,8 +6659,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj": {
-              "projectPath": "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj"
+            "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj": {
+              "projectPath": "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj"
             }
           }
         }

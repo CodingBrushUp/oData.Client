@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\oData.Core\1. oData.Core.csproj" />
+    <ProjectReference Include="..\oData.Core\1.oData.Core.csproj" />
   </ItemGroup>
 
 </Project>

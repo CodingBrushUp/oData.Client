@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OAMIcKXO3MJM3S6tefsKJpI5rwXfC0/4tFgcE2MEXv2Z88PpUI2qHaMysmPSZu3hYXK6zXY7IPJW6DCUbwyugQ==",
+  "dgSpecHash": "tSC2rxbbUEnzQPpdSz5PCBrXHI9MbdGIvd5HN+ppE9E7pW+9vb39WGVTQFHP00ODSfZIyAkSCNdEN3NyAEo9xg==",
   "success": true,
-  "projectFilePath": "E:\\Demo\\oData\\oData.Core\\1. oData.Core.csproj",
+  "projectFilePath": "E:\\Demo\\oData\\oData.Core\\1.oData.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alen_\\.nuget\\packages\\system.spatial\\5.8.5\\system.spatial.5.8.5.nupkg.sha512"
   ],
