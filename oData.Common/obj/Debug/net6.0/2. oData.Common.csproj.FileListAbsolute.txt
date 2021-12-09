@@ -1,0 +1,11 @@
+E:\Demo\oData\oData.Common\bin\Debug\net6.0\2. oData.Common.deps.json
+E:\Demo\oData\oData.Common\bin\Debug\net6.0\2. oData.Common.dll
+E:\Demo\oData\oData.Common\bin\Debug\net6.0\ref\2. oData.Common.dll
+E:\Demo\oData\oData.Common\bin\Debug\net6.0\2. oData.Common.pdb
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\2. oData.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\2. oData.Common.AssemblyInfoInputs.cache
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\2. oData.Common.AssemblyInfo.cs
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\2. oData.Common.csproj.CoreCompileInputs.cache
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\2. oData.Common.dll
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\ref\2. oData.Common.dll
+E:\Demo\oData\oData.Common\obj\Debug\net6.0\2. oData.Common.pdb

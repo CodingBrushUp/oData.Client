@@ -1,0 +1,4 @@
+E:\Demo\oData\obj\Debug\net5.0\oData.GeneratedMSBuildEditorConfig.editorconfig
+E:\Demo\oData\obj\Debug\net5.0\oData.AssemblyInfoInputs.cache
+E:\Demo\oData\obj\Debug\net5.0\oData.AssemblyInfo.cs
+E:\Demo\oData\obj\Debug\net5.0\oData.csproj.CoreCompileInputs.cache
