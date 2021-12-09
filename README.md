@@ -31,7 +31,6 @@ https://www.odata.org/odata-services/ (use v4).
    ```sh
    git clone https://github.com/CodingBrushUp/oData.Client.git
    ```
-2. copy `Resources` folder to your C:\ (our feed is in this folder)
 
 
 
