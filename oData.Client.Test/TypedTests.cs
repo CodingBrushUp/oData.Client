@@ -17,7 +17,7 @@ namespace oData.Client.Test
         }
 
         [Fact]
-        public async Task Step1()
+        public async Task count_All_Peoples()
         {
             var people = await client
                 .For<People>()
@@ -26,7 +26,7 @@ namespace oData.Client.Test
         }
 
         [Fact]
-        public async Task Step1_WithAnnotations()
+        public async Task count_All_Peoples_WithAnnotations()
         {
             var annotations = new ODataFeedAnnotations();
             var count = 0;
@@ -119,7 +119,7 @@ namespace oData.Client.Test
         }
 
         [Fact]
-        public async Task Step6_Involved_Peopple_Count()
+        public async Task Step6_Involved_People_Count()
         {
             var people = await client
                 .For<People>()
