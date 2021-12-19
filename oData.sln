@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.oData.Client", "oData.Client\2.oData.Client.csproj", "{A75E4585-F798-4648-8DFD-DB4F80AD7D24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oData.Client", "oData.Client\oData.Client.csproj", "{A75E4585-F798-4648-8DFD-DB4F80AD7D24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.oData.Client.Test", "oData.Client.Test\3.oData.Client.Test.csproj", "{1DC43DE7-0957-4F36-ACE8-3127F56E172E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oData.Client.Test", "oData.Client.Test\oData.Client.Test.csproj", "{1DC43DE7-0957-4F36-ACE8-3127F56E172E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.oData.Core", "oData.Core\1.oData.Core.csproj", "{30962225-8AD3-4F8B-93BB-8E4037F910AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oData.Core", "oData.Core\oData.Core.csproj", "{30962225-8AD3-4F8B-93BB-8E4037F910AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,16 +1,51 @@
 ﻿using Newtonsoft.Json;
+using oData.Client;
+using oData.Client.Services;
 using oData.Core.Entities;
 using Simple.OData.Client;
+using System.Reflection;
 
 Uri _serviceUri = new Uri("https://services.odata.org/v4/TripPinServiceRW/");
-var client = new ODataClient(CreateDefaultSettings());
+    var client = new ODataClient(CreateDefaultSettings());
 
-await TypedFluentClient(client);
-await GetTripsInfo(client, "scottketchum");
+Console.WriteLine("Which Data do you need to display?");
+//Console.WriteLine("to Show People type 1");
+//Console.WriteLine("to Show Trip Data type 2");
+
+IEnumerable<IAction> actions = typeof(IAction)
+    .Assembly.GetTypes()
+    .Where(t => t.IsClass && t.IsPublic && !t.IsAbstract)
+    .Select(t => (IAction)Activator.CreateInstance(t));
+
+foreach (var action in actions)
+{
+    Console.WriteLine(action.Name);
+}
+
+Console.WriteLine("sdsdsd");
+
+string? selected = Console.ReadLine();
+
+var SelectedAction = actions.FirstOrDefault(a => a.Name == selected);
+Console.WriteLine(SelectedAction?.Execute());
+
+//await TypedFluentClient(client);
+//await GetTripsInfo(client, "scottketchum");
 
 Console.ReadKey();
 
-
+static IEnumerable<T> GetEnumerableOfType<T>(params object[] constructorArgs) where T : class, IComparable<T>
+{
+    List<T> objects = new List<T>();
+    foreach (Type type in
+        Assembly.GetAssembly(typeof(T)).GetTypes()
+        .Where(myType => myType.IsClass && !myType.IsAbstract && myType.IsSubclassOf(typeof(T))))
+    {
+        objects.Add((T)Activator.CreateInstance(type, constructorArgs));
+    }
+    objects.Sort();
+    return objects;
+}
 static async Task TypedFluentClient(ODataClient client)
 {
     var Peoples = await client

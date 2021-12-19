@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\GetInformation.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <OpenApiReference Include="OpenAPIs\$metadata.json" CodeGenerator="NSwagCSharp" Namespace="oDataSample" ClassName="People">
       <SourceUri>https://services.odata.org/TripPinRESTierService/(S(3mslpb2bc0k5ufk24olpghzx))/$metadata#People</SourceUri>
     </OpenApiReference>
@@ -20,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\oData.Core\1.oData.Core.csproj" />
+    <ProjectReference Include="..\oData.Core\oData.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
