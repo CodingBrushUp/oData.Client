@@ -22,15 +22,15 @@ foreach (var action in actions)
     Console.WriteLine(action.Name);
 }
 
-Console.WriteLine("sdsdsd");
+//Console.WriteLine("Test1");
 
 string? selected = Console.ReadLine();
 
 var SelectedAction = actions.FirstOrDefault(a => a.Name == selected);
 Console.WriteLine(SelectedAction?.Execute());
 
-//await TypedFluentClient(client);
-//await GetTripsInfo(client, "scottketchum");
+await TypedFluentClient(client);
+await GetTripsInfo(client, "scottketchum");
 
 Console.ReadKey();
 
@@ -52,7 +52,7 @@ static async Task TypedFluentClient(ODataClient client)
         .For<People>()
         //.Key("russellwhyte")
         .Filter(x => x.Trips.Any(y => y.Budget > 3000))
-        //.Top(2)
+        .Top(2)
         .Select(x => new { x.FirstName, x.LastName })
         .FindEntriesAsync();
 
